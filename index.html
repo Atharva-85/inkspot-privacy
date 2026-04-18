@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — Inkspot</title>
+  <style>
+    :root {
+      --bg: #0b0d12;
+      --text: #e5e7eb;
+      --muted: #94a3b8;
+      --accent: #f97066;
+      --card: #141821;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+    }
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 64px 24px 96px;
+    }
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 48px;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      color: var(--muted);
+      font-size: 14px;
+      text-transform: uppercase;
+    }
+    .brand::before {
+      content: "";
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: var(--accent);
+    }
+    h1 {
+      font-size: 36px;
+      font-weight: 700;
+      margin: 0 0 8px;
+      letter-spacing: -0.02em;
+    }
+    .meta {
+      color: var(--muted);
+      font-size: 14px;
+      margin-bottom: 40px;
+    }
+    h2 {
+      font-size: 18px;
+      font-weight: 600;
+      margin: 36px 0 12px;
+      color: var(--text);
+    }
+    p { margin: 0 0 16px; }
+    ul {
+      padding-left: 20px;
+      margin: 0 0 16px;
+    }
+    li { margin-bottom: 8px; }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      border-bottom: 1px solid rgba(249, 112, 102, 0.3);
+    }
+    a:hover { border-bottom-color: var(--accent); }
+    footer {
+      margin-top: 64px;
+      padding-top: 24px;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      color: var(--muted);
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="brand">Inkspot</div>
+
+    <h1>Privacy Policy</h1>
+    <p class="meta">Last updated: April 19, 2026</p>
+
+    <p>Inkspot is a browser extension that lets you draw and annotate on top of any webpage. This policy explains what data the extension handles.</p>
+
+    <h2>1. Data collection</h2>
+    <p>Inkspot does not collect, store, transmit, or share any personal information, browsing history, page content, or annotation data. The extension has no backend, no analytics, no telemetry, and no third-party services of any kind.</p>
+
+    <h2>2. Annotation data</h2>
+    <p>All annotations you make exist only in the memory of the browser tab you are using them on. They are not saved anywhere — not to your device, not to any server. When you close the overlay, switch tabs, or reload the page, annotations are discarded.</p>
+
+    <h2>3. Permissions</h2>
+    <p>Inkspot uses two Chrome permissions:</p>
+    <ul>
+      <li><strong>activeTab</strong> — grants temporary access to the current tab only when you click the Inkspot toolbar icon. Used solely to inject the annotation overlay. No other tabs are accessed.</li>
+      <li><strong>scripting</strong> — used to inject the annotation toolbar and canvas into the active tab. Only runs when you explicitly activate the extension.</li>
+    </ul>
+    <p>Neither permission is used to read, track, or exfiltrate page content.</p>
+
+    <h2>4. Third parties</h2>
+    <p>Inkspot does not share data with any third party because it does not collect any data.</p>
+
+    <h2>5. Children</h2>
+    <p>Inkspot does not knowingly collect information from anyone, including children under 13.</p>
+
+    <h2>6. Changes</h2>
+    <p>If this policy ever changes, the updated version will be posted at this URL with a new "Last updated" date.</p>
+
+    <h2>7. Contact</h2>
+    <p>Questions about this policy? Email <a href="mailto:atharva.pingale85@gmail.com">atharva.pingale85@gmail.com</a></p>
+
+    <footer>
+      Made with ♥ by Atharva Pingale
+    </footer>
+  </div>
+</body>
+</html>
